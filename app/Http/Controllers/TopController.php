@@ -9,7 +9,7 @@ class TopController extends Controller
 {
     public function index(Request $request)
     {
-        $sampleValue = "sample テキストです。";
+        $phpValue = "ひとよひとよにひよみごろ";
 
         // 参照
         // $records = DB::connection('mysql')->select("select * from items");
@@ -25,6 +25,6 @@ class TopController extends Controller
         // $deleteResult = DB::connection("mysql")->delete("delete from items where name = 'りんご'");
         // dd($deleteResult);
 
-        return view("top/index", ["sampleValue" => $sampleValue]);
+        return view("top/index", ["phpValue" => $phpValue]);
     }
 }

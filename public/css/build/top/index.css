@@ -1,0 +1,41 @@
+.tab-layout {
+  padding: 0;
+  margin: 0;
+}
+
+.tab-layout * {
+  padding: 0;
+  margin: 0;
+}
+
+.tab-layout .tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+}
+
+.tab-layout .tabs .tab {
+  width: 100%;
+  line-height: 2rem;
+  color: black;
+  background-color: #ddd;
+  transition: all 500ms;
+}
+
+.tab-layout .tabs .tab:hover {
+  color: white;
+  background-color: #1d2946;
+}
+
+.tab-layout .content {
+  max-height: 0rem;
+  opacity: 0;
+  transition: all 500ms;
+}
+
+.tab-layout .content.show {
+  max-height: 4rem;
+  opacity: 1;
+}
+
+

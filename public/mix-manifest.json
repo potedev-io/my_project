@@ -1,6 +1,8 @@
 {
     "/js/build/index/index.js": "/js/build/index/index.js",
     "/js/build/login/index.js": "/js/build/login/index.js",
+    "/js/build/top/index.js": "/js/build/top/index.js",
+    "/css/build/top/index.css": "/css/build/top/index.css",
     "/css/build/login/index.css": "/css/build/login/index.css",
     "/css/build/index/index.css": "/css/build/index/index.css"
 }
